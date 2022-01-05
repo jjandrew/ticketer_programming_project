@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D06EC782517B3ED00BEE2F2 /* SkiddleEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D06EC772517B3ED00BEE2F2 /* SkiddleEventResponse.swift */; };
+		0D171F3F2574222D008C4D51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D171F3E2574222D008C4D51 /* GoogleService-Info.plist */; };
+		0D45C718256953C0006DADAA /* EventVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45C717256953C0006DADAA /* EventVenue.swift */; };
+		0D45C71A256D78A5006DADAA /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45C719256D78A5006DADAA /* LocationManagerDelegate.swift */; };
+		0D45C71C256D9672006DADAA /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45C71B256D9672006DADAA /* LocationSearchViewController.swift */; };
+		0D45C71E2573C878006DADAA /* OpenLoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45C71D2573C878006DADAA /* OpenLoginScreenViewController.swift */; };
+		0D50F990251750F700ADEBCF /* HandlingOfSkiddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D50F98F251750F700ADEBCF /* HandlingOfSkiddle.swift */; };
+		0D50F9922517692D00ADEBCF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D50F9912517692D00ADEBCF /* Event.swift */; };
+		0D50F99425176FE800ADEBCF /* Demographic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D50F99325176FE800ADEBCF /* Demographic.swift */; };
+		0D576BCF2520958A00BA7DEE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D576BCE2520958A00BA7DEE /* ProfileViewController.swift */; };
+		0D576BD42520972A00BA7DEE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D576BD32520972A00BA7DEE /* Profile.swift */; };
+		0D576BD92520AEF200BA7DEE /* AttendingEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D576BD82520AEF200BA7DEE /* AttendingEventsTableViewController.swift */; };
+		0D576BDE2520AF1200BA7DEE /* SavedEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D576BDD2520AF1200BA7DEE /* SavedEventsTableViewController.swift */; };
+		0D5E4E7C254876E20056CA90 /* StudhubEventVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E4E7B254876E20056CA90 /* StudhubEventVenue.swift */; };
+		0D5E4E7E2550170B0056CA90 /* SortAndSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E4E7D2550170B0056CA90 /* SortAndSearch.swift */; };
+		0D5E4E8225508CF80056CA90 /* searchSortingChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E4E8125508CF80056CA90 /* searchSortingChoiceViewController.swift */; };
+		0D5E4E8625508E790056CA90 /* EventSearchStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E4E8525508E790056CA90 /* EventSearchStruct.swift */; };
+		0D90D14F2529FF3000F93265 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90D14E2529FF3000F93265 /* EventViewController.swift */; };
+		0D90D151252DE23700F93265 /* nameEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90D150252DE23700F93265 /* nameEntryViewController.swift */; };
+		0D90D153252DE25400F93265 /* dateOfBirthEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90D152252DE25400F93265 /* dateOfBirthEntryViewController.swift */; };
+		0D90D155252DE26500F93265 /* genderEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90D154252DE26500F93265 /* genderEntryViewController.swift */; };
+		0D90D157252E3F3C00F93265 /* confirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90D156252E3F3C00F93265 /* confirmationViewController.swift */; };
+		0D90D159252E5A7700F93265 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90D158252E5A7700F93265 /* SearchViewController.swift */; };
+		0D90FD9E2522284C00F2C189 /* SkiddleOpeningTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90FD9D2522284C00F2C189 /* SkiddleOpeningTimes.swift */; };
+		0D90FDA3252228F500F2C189 /* SkiddleVenues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D90FDA2252228F500F2C189 /* SkiddleVenues.swift */; };
+		0DB26CAE256322B000A8ADA3 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB26CAD256322B000A8ADA3 /* EditProfileViewController.swift */; };
+		0DD4C9B52518B1FF00D91647 /* SkiddleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4C9B42518B1FF00D91647 /* SkiddleEvent.swift */; };
+		0DE4FC7625402697003FCF25 /* TicketMasterEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4FC7525402697003FCF25 /* TicketMasterEvent.swift */; };
+		0DE4FC782540285B003FCF25 /* TickerMasterEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4FC772540285B003FCF25 /* TickerMasterEventResponse.swift */; };
+		0DE4FC7A2540286E003FCF25 /* HandlingOfTicketMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4FC792540286E003FCF25 /* HandlingOfTicketMaster.swift */; };
+		0DE4FC7C254032F5003FCF25 /* StudhubEventResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4FC7B254032F5003FCF25 /* StudhubEventResponse.swift */; };
+		0DE4FC7E25403307003FCF25 /* HandlingOfStudhub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4FC7D25403307003FCF25 /* HandlingOfStudhub.swift */; };
+		0DE4FC8025449138003FCF25 /* StudhubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4FC7F25449138003FCF25 /* StudhubEvent.swift */; };
+		0DF0032F2510C0040059BBDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0032E2510C0040059BBDE /* AppDelegate.swift */; };
+		0DF003312510C0040059BBDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF003302510C0040059BBDE /* SceneDelegate.swift */; };
+		0DF003362510C0040059BBDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF003342510C0040059BBDE /* Main.storyboard */; };
+		0DF003382510C0070059BBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF003372510C0070059BBDE /* Assets.xcassets */; };
+		0DF0033B2510C0070059BBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF003392510C0070059BBDE /* LaunchScreen.storyboard */; };
+		0DF003462510C0070059BBDE /* Ticketer_Programming_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF003452510C0070059BBDE /* Ticketer_Programming_ProjectTests.swift */; };
+		0DF003512510C0070059BBDE /* Ticketer_Programming_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF003502510C0070059BBDE /* Ticketer_Programming_ProjectUITests.swift */; };
+		0DF0035F2510C0F00059BBDE /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0035E2510C0F00059BBDE /* HomeScreenViewController.swift */; };
+		0DF003612510C1B20059BBDE /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF003602510C1B20059BBDE /* APIs.swift */; };
+		56839FDA8B39042354583CDA /* Pods_Ticketer_Programming_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F820007F444E43373C08CA2 /* Pods_Ticketer_Programming_ProjectTests.framework */; };
+		66A74A1606B63CB74D8BC891 /* Pods_Ticketer_Programming_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC8B5BBEC6F0400A49CB988 /* Pods_Ticketer_Programming_Project.framework */; };
+		F28A9A7F9DB8FA00F6667813 /* Pods_Ticketer_Programming_Project_Ticketer_Programming_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C80A258D6A5B234903C7B30 /* Pods_Ticketer_Programming_Project_Ticketer_Programming_ProjectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF003422510C0070059BBDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF003232510C0040059BBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DF0032A2510C0040059BBDE;
+			remoteInfo = "Ticketer Programming Project";
+		};
+		0DF0034D2510C0070059BBDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF003232510C0040059BBDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DF0032A2510C0040059BBDE;
+			remoteInfo = "Ticketer Programming Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C80A258D6A5B234903C7B30 /* Pods_Ticketer_Programming_Project_Ticketer_Programming_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ticketer_Programming_Project_Ticketer_Programming_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D06EC772517B3ED00BEE2F2 /* SkiddleEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiddleEventResponse.swift; sourceTree = "<group>"; };
+		0D171F3E2574222D008C4D51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0D45C717256953C0006DADAA /* EventVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVenue.swift; sourceTree = "<group>"; };
+		0D45C719256D78A5006DADAA /* LocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerDelegate.swift; sourceTree = "<group>"; };
+		0D45C71B256D9672006DADAA /* LocationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
+		0D45C71D2573C878006DADAA /* OpenLoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenLoginScreenViewController.swift; sourceTree = "<group>"; };
+		0D50F98F251750F700ADEBCF /* HandlingOfSkiddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingOfSkiddle.swift; sourceTree = "<group>"; };
+		0D50F9912517692D00ADEBCF /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		0D50F99325176FE800ADEBCF /* Demographic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demographic.swift; sourceTree = "<group>"; };
+		0D576BCE2520958A00BA7DEE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0D576BD32520972A00BA7DEE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0D576BD82520AEF200BA7DEE /* AttendingEventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendingEventsTableViewController.swift; sourceTree = "<group>"; };
+		0D576BDD2520AF1200BA7DEE /* SavedEventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedEventsTableViewController.swift; sourceTree = "<group>"; };
+		0D5E4E7B254876E20056CA90 /* StudhubEventVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudhubEventVenue.swift; sourceTree = "<group>"; };
+		0D5E4E7D2550170B0056CA90 /* SortAndSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortAndSearch.swift; sourceTree = "<group>"; };
+		0D5E4E8125508CF80056CA90 /* searchSortingChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchSortingChoiceViewController.swift; sourceTree = "<group>"; };
+		0D5E4E8525508E790056CA90 /* EventSearchStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSearchStruct.swift; sourceTree = "<group>"; };
+		0D90D14E2529FF3000F93265 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		0D90D150252DE23700F93265 /* nameEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameEntryViewController.swift; sourceTree = "<group>"; };
+		0D90D152252DE25400F93265 /* dateOfBirthEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateOfBirthEntryViewController.swift; sourceTree = "<group>"; };
+		0D90D154252DE26500F93265 /* genderEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genderEntryViewController.swift; sourceTree = "<group>"; };
+		0D90D156252E3F3C00F93265 /* confirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmationViewController.swift; sourceTree = "<group>"; };
+		0D90D158252E5A7700F93265 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0D90FD9D2522284C00F2C189 /* SkiddleOpeningTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiddleOpeningTimes.swift; sourceTree = "<group>"; };
+		0D90FDA2252228F500F2C189 /* SkiddleVenues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiddleVenues.swift; sourceTree = "<group>"; };
+		0DB26CAD256322B000A8ADA3 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		0DD4C9B42518B1FF00D91647 /* SkiddleEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiddleEvent.swift; sourceTree = "<group>"; };
+		0DE4FC7525402697003FCF25 /* TicketMasterEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterEvent.swift; sourceTree = "<group>"; };
+		0DE4FC772540285B003FCF25 /* TickerMasterEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerMasterEventResponse.swift; sourceTree = "<group>"; };
+		0DE4FC792540286E003FCF25 /* HandlingOfTicketMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingOfTicketMaster.swift; sourceTree = "<group>"; };
+		0DE4FC7B254032F5003FCF25 /* StudhubEventResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudhubEventResponse.swift; sourceTree = "<group>"; };
+		0DE4FC7D25403307003FCF25 /* HandlingOfStudhub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingOfStudhub.swift; sourceTree = "<group>"; };
+		0DE4FC7F25449138003FCF25 /* StudhubEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudhubEvent.swift; sourceTree = "<group>"; };
+		0DF0032B2510C0040059BBDE /* Ticketer Programming Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ticketer Programming Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF0032E2510C0040059BBDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DF003302510C0040059BBDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DF003352510C0040059BBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DF003372510C0070059BBDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DF0033A2510C0070059BBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DF0033C2510C0070059BBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF003412510C0070059BBDE /* Ticketer Programming ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticketer Programming ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF003452510C0070059BBDE /* Ticketer_Programming_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticketer_Programming_ProjectTests.swift; sourceTree = "<group>"; };
+		0DF003472510C0070059BBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF0034C2510C0070059BBDE /* Ticketer Programming ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticketer Programming ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF003502510C0070059BBDE /* Ticketer_Programming_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticketer_Programming_ProjectUITests.swift; sourceTree = "<group>"; };
+		0DF003522510C0070059BBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF0035E2510C0F00059BBDE /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		0DF003602510C1B20059BBDE /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		1911D316D5EEFF9F6D1198C3 /* Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		313800ABCF7E784E43F6E45C /* Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F820007F444E43373C08CA2 /* Pods_Ticketer_Programming_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ticketer_Programming_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC8B5BBEC6F0400A49CB988 /* Pods_Ticketer_Programming_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ticketer_Programming_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730A0B33260D1402DD59E2E9 /* Pods-Ticketer Programming Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketer Programming Project.release.xcconfig"; path = "Target Support Files/Pods-Ticketer Programming Project/Pods-Ticketer Programming Project.release.xcconfig"; sourceTree = "<group>"; };
+		AA1E337ADBAEDFF76A4CABDA /* Pods-Ticketer Programming ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketer Programming ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Ticketer Programming ProjectTests/Pods-Ticketer Programming ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0510B3B1FC12F28014D946D /* Pods-Ticketer Programming ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketer Programming ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Ticketer Programming ProjectTests/Pods-Ticketer Programming ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		D88F23A324E64CC0E28B7FA1 /* Pods-Ticketer Programming Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketer Programming Project.debug.xcconfig"; path = "Target Support Files/Pods-Ticketer Programming Project/Pods-Ticketer Programming Project.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DF003282510C0040059BBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A74A1606B63CB74D8BC891 /* Pods_Ticketer_Programming_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF0033E2510C0070059BBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56839FDA8B39042354583CDA /* Pods_Ticketer_Programming_ProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF003492510C0070059BBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28A9A7F9DB8FA00F6667813 /* Pods_Ticketer_Programming_Project_Ticketer_Programming_ProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D45C71525695396006DADAA /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F9912517692D00ADEBCF /* Event.swift */,
+				0D45C717256953C0006DADAA /* EventVenue.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		0DE4FC8125449140003FCF25 /* SkiddleEvent */ = {
+			isa = PBXGroup;
+			children = (
+				0D06EC772517B3ED00BEE2F2 /* SkiddleEventResponse.swift */,
+				0DD4C9B42518B1FF00D91647 /* SkiddleEvent.swift */,
+				0D90FD9D2522284C00F2C189 /* SkiddleOpeningTimes.swift */,
+				0D90FDA2252228F500F2C189 /* SkiddleVenues.swift */,
+			);
+			path = SkiddleEvent;
+			sourceTree = "<group>";
+		};
+		0DE4FC822544917D003FCF25 /* StudhubEvent */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4FC7B254032F5003FCF25 /* StudhubEventResponse.swift */,
+				0DE4FC7F25449138003FCF25 /* StudhubEvent.swift */,
+				0D5E4E7B254876E20056CA90 /* StudhubEventVenue.swift */,
+			);
+			path = StudhubEvent;
+			sourceTree = "<group>";
+		};
+		0DE4FC83254491A5003FCF25 /* HandlingOfApis */ = {
+			isa = PBXGroup;
+			children = (
+				0D50F98F251750F700ADEBCF /* HandlingOfSkiddle.swift */,
+				0DE4FC792540286E003FCF25 /* HandlingOfTicketMaster.swift */,
+				0DE4FC7D25403307003FCF25 /* HandlingOfStudhub.swift */,
+			);
+			path = HandlingOfApis;
+			sourceTree = "<group>";
+		};
+		0DE4FC84254491C0003FCF25 /* TicketMasterEvent */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4FC772540285B003FCF25 /* TickerMasterEventResponse.swift */,
+				0DE4FC7525402697003FCF25 /* TicketMasterEvent.swift */,
+			);
+			path = TicketMasterEvent;
+			sourceTree = "<group>";
+		};
+		0DE4FC85254491F2003FCF25 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4FC892544925C003FCF25 /* EventDisplays */,
+				0DE4FC8825449218003FCF25 /* Home */,
+				0DE4FC872544920E003FCF25 /* Profile */,
+				0DE4FC86254491FB003FCF25 /* FirstLogin */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0DE4FC86254491FB003FCF25 /* FirstLogin */ = {
+			isa = PBXGroup;
+			children = (
+				0D45C71D2573C878006DADAA /* OpenLoginScreenViewController.swift */,
+				0D90D150252DE23700F93265 /* nameEntryViewController.swift */,
+				0D90D152252DE25400F93265 /* dateOfBirthEntryViewController.swift */,
+				0D90D154252DE26500F93265 /* genderEntryViewController.swift */,
+				0D90D156252E3F3C00F93265 /* confirmationViewController.swift */,
+			);
+			path = FirstLogin;
+			sourceTree = "<group>";
+		};
+		0DE4FC872544920E003FCF25 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0D576BCE2520958A00BA7DEE /* ProfileViewController.swift */,
+				0DB26CAD256322B000A8ADA3 /* EditProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0DE4FC8825449218003FCF25 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0035E2510C0F00059BBDE /* HomeScreenViewController.swift */,
+				0D45C71B256D9672006DADAA /* LocationSearchViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0DE4FC892544925C003FCF25 /* EventDisplays */ = {
+			isa = PBXGroup;
+			children = (
+				0D90D158252E5A7700F93265 /* SearchViewController.swift */,
+				0D576BDD2520AF1200BA7DEE /* SavedEventsTableViewController.swift */,
+				0D576BD82520AEF200BA7DEE /* AttendingEventsTableViewController.swift */,
+				0D90D14E2529FF3000F93265 /* EventViewController.swift */,
+				0D5E4E8125508CF80056CA90 /* searchSortingChoiceViewController.swift */,
+			);
+			path = EventDisplays;
+			sourceTree = "<group>";
+		};
+		0DF003222510C0040059BBDE = {
+			isa = PBXGroup;
+			children = (
+				0DF0032D2510C0040059BBDE /* Ticketer Programming Project */,
+				0DF003442510C0070059BBDE /* Ticketer Programming ProjectTests */,
+				0DF0034F2510C0070059BBDE /* Ticketer Programming ProjectUITests */,
+				0DF0032C2510C0040059BBDE /* Products */,
+				F8E9EC0FE21DF75A6AFBB233 /* Pods */,
+				36921E9F556DD5A6900F0A4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DF0032C2510C0040059BBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0032B2510C0040059BBDE /* Ticketer Programming Project.app */,
+				0DF003412510C0070059BBDE /* Ticketer Programming ProjectTests.xctest */,
+				0DF0034C2510C0070059BBDE /* Ticketer Programming ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DF0032D2510C0040059BBDE /* Ticketer Programming Project */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0032E2510C0040059BBDE /* AppDelegate.swift */,
+				0DF003302510C0040059BBDE /* SceneDelegate.swift */,
+				0DE4FC85254491F2003FCF25 /* ViewControllers */,
+				0DF003342510C0040059BBDE /* Main.storyboard */,
+				0DF003372510C0070059BBDE /* Assets.xcassets */,
+				0DF003392510C0070059BBDE /* LaunchScreen.storyboard */,
+				0DF003602510C1B20059BBDE /* APIs.swift */,
+				0D5E4E7D2550170B0056CA90 /* SortAndSearch.swift */,
+				0D45C71525695396006DADAA /* Event */,
+				0DE4FC83254491A5003FCF25 /* HandlingOfApis */,
+				0DE4FC822544917D003FCF25 /* StudhubEvent */,
+				0DE4FC8125449140003FCF25 /* SkiddleEvent */,
+				0DE4FC84254491C0003FCF25 /* TicketMasterEvent */,
+				0D50F99325176FE800ADEBCF /* Demographic.swift */,
+				0D576BD32520972A00BA7DEE /* Profile.swift */,
+				0D5E4E8525508E790056CA90 /* EventSearchStruct.swift */,
+				0D45C719256D78A5006DADAA /* LocationManagerDelegate.swift */,
+				0DF0033C2510C0070059BBDE /* Info.plist */,
+				0D171F3E2574222D008C4D51 /* GoogleService-Info.plist */,
+			);
+			path = "Ticketer Programming Project";
+			sourceTree = "<group>";
+		};
+		0DF003442510C0070059BBDE /* Ticketer Programming ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DF003452510C0070059BBDE /* Ticketer_Programming_ProjectTests.swift */,
+				0DF003472510C0070059BBDE /* Info.plist */,
+			);
+			path = "Ticketer Programming ProjectTests";
+			sourceTree = "<group>";
+		};
+		0DF0034F2510C0070059BBDE /* Ticketer Programming ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DF003502510C0070059BBDE /* Ticketer_Programming_ProjectUITests.swift */,
+				0DF003522510C0070059BBDE /* Info.plist */,
+			);
+			path = "Ticketer Programming ProjectUITests";
+			sourceTree = "<group>";
+		};
+		36921E9F556DD5A6900F0A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8B5BBEC6F0400A49CB988 /* Pods_Ticketer_Programming_Project.framework */,
+				0C80A258D6A5B234903C7B30 /* Pods_Ticketer_Programming_Project_Ticketer_Programming_ProjectUITests.framework */,
+				4F820007F444E43373C08CA2 /* Pods_Ticketer_Programming_ProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8E9EC0FE21DF75A6AFBB233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D88F23A324E64CC0E28B7FA1 /* Pods-Ticketer Programming Project.debug.xcconfig */,
+				730A0B33260D1402DD59E2E9 /* Pods-Ticketer Programming Project.release.xcconfig */,
+				1911D316D5EEFF9F6D1198C3 /* Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.debug.xcconfig */,
+				313800ABCF7E784E43F6E45C /* Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.release.xcconfig */,
+				AA1E337ADBAEDFF76A4CABDA /* Pods-Ticketer Programming ProjectTests.debug.xcconfig */,
+				D0510B3B1FC12F28014D946D /* Pods-Ticketer Programming ProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DF0032A2510C0040059BBDE /* Ticketer Programming Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF003552510C0070059BBDE /* Build configuration list for PBXNativeTarget "Ticketer Programming Project" */;
+			buildPhases = (
+				EBD9D5DF017D565916AE5CAE /* [CP] Check Pods Manifest.lock */,
+				0DF003272510C0040059BBDE /* Sources */,
+				0DF003282510C0040059BBDE /* Frameworks */,
+				0DF003292510C0040059BBDE /* Resources */,
+				9DD8F9149DC7DFAD2CA1CF17 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ticketer Programming Project";
+			productName = "Ticketer Programming Project";
+			productReference = 0DF0032B2510C0040059BBDE /* Ticketer Programming Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DF003402510C0070059BBDE /* Ticketer Programming ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF003582510C0070059BBDE /* Build configuration list for PBXNativeTarget "Ticketer Programming ProjectTests" */;
+			buildPhases = (
+				9A4A4CE52C0E39EBDECC55B2 /* [CP] Check Pods Manifest.lock */,
+				0DF0033D2510C0070059BBDE /* Sources */,
+				0DF0033E2510C0070059BBDE /* Frameworks */,
+				0DF0033F2510C0070059BBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF003432510C0070059BBDE /* PBXTargetDependency */,
+			);
+			name = "Ticketer Programming ProjectTests";
+			productName = "Ticketer Programming ProjectTests";
+			productReference = 0DF003412510C0070059BBDE /* Ticketer Programming ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DF0034B2510C0070059BBDE /* Ticketer Programming ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF0035B2510C0070059BBDE /* Build configuration list for PBXNativeTarget "Ticketer Programming ProjectUITests" */;
+			buildPhases = (
+				D7BFA07A5D3D9B93229FBEEC /* [CP] Check Pods Manifest.lock */,
+				0DF003482510C0070059BBDE /* Sources */,
+				0DF003492510C0070059BBDE /* Frameworks */,
+				0DF0034A2510C0070059BBDE /* Resources */,
+				BC6A36D6715ACEB487E3D76E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF0034E2510C0070059BBDE /* PBXTargetDependency */,
+			);
+			name = "Ticketer Programming ProjectUITests";
+			productName = "Ticketer Programming ProjectUITests";
+			productReference = 0DF0034C2510C0070059BBDE /* Ticketer Programming ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DF003232510C0040059BBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "JJ Andrew";
+				TargetAttributes = {
+					0DF0032A2510C0040059BBDE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					0DF003402510C0070059BBDE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0DF0032A2510C0040059BBDE;
+					};
+					0DF0034B2510C0070059BBDE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0DF0032A2510C0040059BBDE;
+					};
+				};
+			};
+			buildConfigurationList = 0DF003262510C0040059BBDE /* Build configuration list for PBXProject "Ticketer Programming Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DF003222510C0040059BBDE;
+			productRefGroup = 0DF0032C2510C0040059BBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DF0032A2510C0040059BBDE /* Ticketer Programming Project */,
+				0DF003402510C0070059BBDE /* Ticketer Programming ProjectTests */,
+				0DF0034B2510C0070059BBDE /* Ticketer Programming ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DF003292510C0040059BBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF0033B2510C0070059BBDE /* LaunchScreen.storyboard in Resources */,
+				0D171F3F2574222D008C4D51 /* GoogleService-Info.plist in Resources */,
+				0DF003382510C0070059BBDE /* Assets.xcassets in Resources */,
+				0DF003362510C0040059BBDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF0033F2510C0070059BBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF0034A2510C0070059BBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4A4CE52C0E39EBDECC55B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ticketer Programming ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD8F9149DC7DFAD2CA1CF17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticketer Programming Project/Pods-Ticketer Programming Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticketer Programming Project/Pods-Ticketer Programming Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ticketer Programming Project/Pods-Ticketer Programming Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6A36D6715ACEB487E3D76E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BFA07A5D3D9B93229FBEEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD9D5DF017D565916AE5CAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ticketer Programming Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF003272510C0040059BBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF0035F2510C0F00059BBDE /* HomeScreenViewController.swift in Sources */,
+				0D576BD42520972A00BA7DEE /* Profile.swift in Sources */,
+				0DE4FC782540285B003FCF25 /* TickerMasterEventResponse.swift in Sources */,
+				0D90D14F2529FF3000F93265 /* EventViewController.swift in Sources */,
+				0D90D153252DE25400F93265 /* dateOfBirthEntryViewController.swift in Sources */,
+				0D576BDE2520AF1200BA7DEE /* SavedEventsTableViewController.swift in Sources */,
+				0D45C71C256D9672006DADAA /* LocationSearchViewController.swift in Sources */,
+				0D50F990251750F700ADEBCF /* HandlingOfSkiddle.swift in Sources */,
+				0DE4FC8025449138003FCF25 /* StudhubEvent.swift in Sources */,
+				0D90D159252E5A7700F93265 /* SearchViewController.swift in Sources */,
+				0D90D155252DE26500F93265 /* genderEntryViewController.swift in Sources */,
+				0DB26CAE256322B000A8ADA3 /* EditProfileViewController.swift in Sources */,
+				0D90FDA3252228F500F2C189 /* SkiddleVenues.swift in Sources */,
+				0D576BD92520AEF200BA7DEE /* AttendingEventsTableViewController.swift in Sources */,
+				0DF0032F2510C0040059BBDE /* AppDelegate.swift in Sources */,
+				0DD4C9B52518B1FF00D91647 /* SkiddleEvent.swift in Sources */,
+				0D5E4E8625508E790056CA90 /* EventSearchStruct.swift in Sources */,
+				0DE4FC7C254032F5003FCF25 /* StudhubEventResponse.swift in Sources */,
+				0D90D151252DE23700F93265 /* nameEntryViewController.swift in Sources */,
+				0D5E4E7E2550170B0056CA90 /* SortAndSearch.swift in Sources */,
+				0D06EC782517B3ED00BEE2F2 /* SkiddleEventResponse.swift in Sources */,
+				0D576BCF2520958A00BA7DEE /* ProfileViewController.swift in Sources */,
+				0D5E4E7C254876E20056CA90 /* StudhubEventVenue.swift in Sources */,
+				0DF003612510C1B20059BBDE /* APIs.swift in Sources */,
+				0DE4FC7A2540286E003FCF25 /* HandlingOfTicketMaster.swift in Sources */,
+				0D50F9922517692D00ADEBCF /* Event.swift in Sources */,
+				0D45C71A256D78A5006DADAA /* LocationManagerDelegate.swift in Sources */,
+				0D5E4E8225508CF80056CA90 /* searchSortingChoiceViewController.swift in Sources */,
+				0D90D157252E3F3C00F93265 /* confirmationViewController.swift in Sources */,
+				0DE4FC7625402697003FCF25 /* TicketMasterEvent.swift in Sources */,
+				0DF003312510C0040059BBDE /* SceneDelegate.swift in Sources */,
+				0D45C718256953C0006DADAA /* EventVenue.swift in Sources */,
+				0DE4FC7E25403307003FCF25 /* HandlingOfStudhub.swift in Sources */,
+				0D90FD9E2522284C00F2C189 /* SkiddleOpeningTimes.swift in Sources */,
+				0D50F99425176FE800ADEBCF /* Demographic.swift in Sources */,
+				0D45C71E2573C878006DADAA /* OpenLoginScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF0033D2510C0070059BBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF003462510C0070059BBDE /* Ticketer_Programming_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF003482510C0070059BBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF003512510C0070059BBDE /* Ticketer_Programming_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF003432510C0070059BBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DF0032A2510C0040059BBDE /* Ticketer Programming Project */;
+			targetProxy = 0DF003422510C0070059BBDE /* PBXContainerItemProxy */;
+		};
+		0DF0034E2510C0070059BBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DF0032A2510C0040059BBDE /* Ticketer Programming Project */;
+			targetProxy = 0DF0034D2510C0070059BBDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DF003342510C0040059BBDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF003352510C0040059BBDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DF003392510C0070059BBDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF0033A2510C0070059BBDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DF003532510C0070059BBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DF003542510C0070059BBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DF003562510C0070059BBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88F23A324E64CC0E28B7FA1 /* Pods-Ticketer Programming Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticketer Programming Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjandrew.Ticketer-Programming-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DF003572510C0070059BBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730A0B33260D1402DD59E2E9 /* Pods-Ticketer Programming Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticketer Programming Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjandrew.Ticketer-Programming-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DF003592510C0070059BBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1E337ADBAEDFF76A4CABDA /* Pods-Ticketer Programming ProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticketer Programming ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjandrew.Ticketer-Programming-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticketer Programming Project.app/Ticketer Programming Project";
+			};
+			name = Debug;
+		};
+		0DF0035A2510C0070059BBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0510B3B1FC12F28014D946D /* Pods-Ticketer Programming ProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticketer Programming ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjandrew.Ticketer-Programming-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticketer Programming Project.app/Ticketer Programming Project";
+			};
+			name = Release;
+		};
+		0DF0035C2510C0070059BBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1911D316D5EEFF9F6D1198C3 /* Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticketer Programming ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjandrew.Ticketer-Programming-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ticketer Programming Project";
+			};
+			name = Debug;
+		};
+		0DF0035D2510C0070059BBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313800ABCF7E784E43F6E45C /* Pods-Ticketer Programming Project-Ticketer Programming ProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ticketer Programming ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjandrew.Ticketer-Programming-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ticketer Programming Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF003262510C0040059BBDE /* Build configuration list for PBXProject "Ticketer Programming Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF003532510C0070059BBDE /* Debug */,
+				0DF003542510C0070059BBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF003552510C0070059BBDE /* Build configuration list for PBXNativeTarget "Ticketer Programming Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF003562510C0070059BBDE /* Debug */,
+				0DF003572510C0070059BBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF003582510C0070059BBDE /* Build configuration list for PBXNativeTarget "Ticketer Programming ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF003592510C0070059BBDE /* Debug */,
+				0DF0035A2510C0070059BBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF0035B2510C0070059BBDE /* Build configuration list for PBXNativeTarget "Ticketer Programming ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF0035C2510C0070059BBDE /* Debug */,
+				0DF0035D2510C0070059BBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DF003232510C0040059BBDE /* Project object */;
+}
